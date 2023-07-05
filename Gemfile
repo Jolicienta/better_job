@@ -70,3 +70,17 @@ group :test do
   gem "selenium-webdriver"
   gem "webdrivers"
 end
+
+#Gemas para hacer funcionar bootstrap
+gem "cssbundling-rails", "~> 1.2"
+gem "jsbundling-rails", "~> 1.1"
+
+gem 'bootstrap', '~> 5.1', '>= 5.1.3'
+gem 'sassc-rails'
+
+gem "figaro"
+gem "faker"
+gem "devise"
+
+
+

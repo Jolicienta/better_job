@@ -5,3 +5,13 @@
 #
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
+
+
+
+
+while Job.count < 10
+	if !Job.pluck(:title).include?(Faker::Commerce.department)
+		unique_name = Faker::Commerce.department
+		Job.create(title: unique_name)
+	end
+end
